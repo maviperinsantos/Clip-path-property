@@ -1,0 +1,36 @@
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+
+.card{
+position: relative;
+width: 400px;
+height: 400px;
+background-color: black;
+}
+
+.content{
+position: absolute;
+width: 60%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+text-align: center;
+}
+
+h2 {
+margin-bottom: 20px;
+text-transform: capitalize;
+}
+
+p {
+ margin-bottom: 30px;
+ text-transform: capitalize;
+}
